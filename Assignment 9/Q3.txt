@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int m,n;
+
+    printf("Enter 2 numbers (Remember 1st number must be greater than 2nd):\n");
+    scanf("%d %d",&m,&n);
+
+    if (m<n)
+    {
+        while (m<=n) {
+            printf(" %d ", m);
+            m++;
+        }
+    }
+else
+    {
+        while (n<=m) {
+            printf("%d ", m);
+            m--;
+        }
+    }
+}

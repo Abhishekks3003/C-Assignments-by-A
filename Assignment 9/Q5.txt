@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int n=1,m,j;
+    printf("Enter a Number:\n");
+    scanf("%d",&n);
+    printf("Its Multiplication table is :\n");
+    while (m<=10)
+    {
+        j=n*m;
+        printf("%d ",j);
+        
+        j=m++;
+    }
+}

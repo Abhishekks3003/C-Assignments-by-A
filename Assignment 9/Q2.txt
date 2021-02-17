@@ -1,0 +1,50 @@
+#include <stdio.h>
+int main()
+{
+   int m,n;
+   printf("Enter 2 numbers (Remember 1st number must be greater than 2nd):\n");
+   scanf("%d %d",&m,&n);
+
+    while (n<=m)
+    {
+        printf(" %d ",m);
+        m--;
+    }
+
+}
+
+/*/*#include <stdio.h>
+int main()
+{
+   int m,n;
+   printf("Enter 2 numbers (Remember 1st number must be greater than 2nd):\n");
+   scanf("%d %d",&m,&n);
+
+    while (n<=m)
+    {
+        printf(" %d ",m);
+        m--;
+    }
+
+}
+
+/*
+
+#include <stdio.h>
+int main()
+{
+    int m,n,j;
+
+    printf("Enter 2 numbers (Remember 1st number must be greater than 2nd):\n");
+    scanf("%d %d",&m,&n);
+
+
+    while (n<m)
+    {
+        j=m-1;
+        j=--m;
+        printf(" %d ",j);
+
+    }
+
+}*/
