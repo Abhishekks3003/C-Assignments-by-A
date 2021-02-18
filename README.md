@@ -1,1 +1,2 @@
-Please do not copy the whole code, Thankyou!
+ Thankyou! For reading my code
+ 
