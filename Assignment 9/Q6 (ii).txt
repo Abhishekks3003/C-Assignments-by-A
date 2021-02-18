@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int n,i=1,sum=0;
+    printf("Enter a Number:\n");
+    scanf("%d",&n);
+    printf("The Odd Numbers b/w 1 to %d is :\n",n );
+    while (i<=n/2)
+    {
+
+            printf("%d ",2*i-1);
+            sum=sum+2*i-1;
+            i++;
+
+        }
+    printf("\n");
+    printf("The Sum of all odd numbers b/w 1 to %d is :\n",n);
+    printf("%d",sum);
+    }
