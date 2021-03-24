@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int i,n;
+    printf("Enter The Size of an Array:\n");
+    scanf("%d",&n);
+    if (n<17)
+    {
+        printf("Enter no more than 17\n");
+    }
+    else
+        {
+            printf("The Odd elements in the array from 17\n");
+            for (i = 17; i < n; i++)
+            {
+                if (i % 2 != 0)
+                    printf("%d ", i);
+            }
+            printf("\n");
+        printf("The Odd elements in the array in reverse order from %d are\n",n);
+        for (i = n-1; i>=17; i--)
+        {
+            if (i % 2 != 0)
+                printf("%d ", i);
+        }
+        }
+}
